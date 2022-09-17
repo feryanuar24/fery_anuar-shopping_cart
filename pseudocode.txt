@@ -1,0 +1,9 @@
+PROGRAM ShoppingCart
+
+READ AND WRITE "item1, item2, item3" with string
+READ AND WRITE "qtyItem1" with number
+READ AND WRITE "otherItem" with boolean
+
+STORE "item1" with "Book"
+STORE "qtyItem1" with 12
+PRINT "qtyItem1"
