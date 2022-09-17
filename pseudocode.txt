@@ -11,6 +11,17 @@ STORE "otherItem" with true
 IF "otherItem" true
     STORE "item2" with "Pen"
     STORE "qtyItem2" with 10
+    STORE "otherItem" with true
+
+    IF "otherItem" true
+        STORE "item3" with "Eraser"
+        STORE "qtyItem3" with 5
+        STORE "totalAmount2" with calculate "qtyItem1" add with "qtyItem2" add with "qtyItem3"
+        PRINT "totalAmount2"
+
+    ELSE 
+        STORE "totalAmount1" with calculate "qtyItem1" add with "qtyItem2"
+        PRINT "totalAmount1"
 
 ELSE
     PRINT "qtyItem1"
