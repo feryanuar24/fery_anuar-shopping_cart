@@ -6,4 +6,11 @@ READ AND WRITE "otherItem" with boolean
 
 STORE "item1" with "Book"
 STORE "qtyItem1" with 12
-PRINT "qtyItem1"
+STORE "otherItem" with true
+
+IF "otherItem" true
+    STORE "item2" with "Pen"
+    STORE "qtyItem2" with 10
+
+ELSE
+    PRINT "qtyItem1"
